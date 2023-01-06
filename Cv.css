@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, sans-serif;
+}
+h2{
+    text-decoration: underline double green;
+    text-underline-position: under;
+    font-family: Arial, sans-serif;
+    font-size: 24pt;
+}
+.textUnderline{
+    text-decoration: underline double green 2px;
+    text-underline-position: under;
+}
+.cDet{
+    font-size: 20pt;
+    list-style: none;
+    font-weight: bold;
+}
+.cDet li{
+    margin: 3pt;
+    margin-top: 10pt;
+}
+.bgPar{
+    background-color: rgba(225, 230, 226, 0.661);
+    padding:5pt;
+    font-size: 15pt;
+    border-radius: 5pt;
+
+}
+.listStyling{
+    list-style-position: inside;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+  
+.education {
+    grid-column: 1 / 2; 
+    border-right: 1pt black solid;
+    border-radius: 5pt;
+}
+  
+.right-side {
+    grid-column: 2 / 3; 
+    background-color: rgba(197, 221, 205, 0.661);
+    padding-left: 5pt;
+    border-left: 1pt black solid;
+    border-radius: 5pt;
+}
+.image{
+    border-radius: 10pt;
+}
